@@ -1,0 +1,167 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;  
+  background-color: #232323;
+  color: #fff;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #5a585d;
+  background-color: #232323;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: #cf5a5a;
+}
+
+
+.content {
+    
+  padding: 1rem 2rem;
+  
+}
+
+.content p {
+  font-size: 1rem;
+  /* line-height: 1.5; */
+  margin-bottom: 1rem;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.planets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.planet {
+  padding: 1rem;
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 400px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* .planet:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+} */
+
+.planet h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.planet p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.planet li {
+  margin-bottom: 0.5rem;
+  list-style-type:  none;
+  font-size: 0.8rem;
+  padding-left: 1rem;
+}
+
+
+
+
+.form-container {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.form-container h2 {
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+} 
+.form-container label {
+    display: block;
+    text-align: left;
+    display: flex;
+    align-items: center;    
+    justify-content: center; 
+    margin-right: 10px;
+    white-space: nowrap;
+}
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #904040;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background-color: #cf5a5a;
+}
+
+
+.footer {
+  padding: 1rem 2rem;
+  background-color: #191919;
+  color: #ddd;
+  /* border-top: 2px solid #5a585d; */
+  margin-top: 2rem;
+}
